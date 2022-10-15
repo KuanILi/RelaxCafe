@@ -13,6 +13,9 @@
 		8EF6782628E2B1B4000708AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6782428E2B1B4000708AF /* Main.storyboard */; };
 		8EF6782828E2B1B5000708AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6782728E2B1B5000708AF /* Assets.xcassets */; };
 		8EF6782B28E2B1B5000708AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF6782928E2B1B5000708AF /* LaunchScreen.storyboard */; };
+		8EF6783328E2B3B4000708AF /* CoffeeStoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6783228E2B3B4000708AF /* CoffeeStoreInfo.swift */; };
+		8EF6783528E2B42E000708AF /* StoreNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6783428E2B42E000708AF /* StoreNameTableViewCell.swift */; };
+		8EF6783728E2C7A1000708AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6783628E2C7A1000708AF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8EF6782728E2B1B5000708AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF6782A28E2B1B5000708AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EF6782C28E2B1B5000708AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF6783228E2B3B4000708AF /* CoffeeStoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeStoreInfo.swift; sourceTree = "<group>"; };
+		8EF6783428E2B42E000708AF /* StoreNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreNameTableViewCell.swift; sourceTree = "<group>"; };
+		8EF6783628E2C7A1000708AF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		8EF6781D28E2B1B4000708AF /* RelaxCafe */ = {
 			isa = PBXGroup;
 			children = (
+				8EF6783628E2C7A1000708AF /* DetailViewController.swift */,
+				8EF6783428E2B42E000708AF /* StoreNameTableViewCell.swift */,
+				8EF6783228E2B3B4000708AF /* CoffeeStoreInfo.swift */,
 				8EF6781E28E2B1B4000708AF /* AppDelegate.swift */,
 				8EF6782028E2B1B4000708AF /* SceneDelegate.swift */,
 				8EF6782228E2B1B4000708AF /* ViewController.swift */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF6782328E2B1B4000708AF /* ViewController.swift in Sources */,
+				8EF6783328E2B3B4000708AF /* CoffeeStoreInfo.swift in Sources */,
+				8EF6783528E2B42E000708AF /* StoreNameTableViewCell.swift in Sources */,
+				8EF6783728E2C7A1000708AF /* DetailViewController.swift in Sources */,
 				8EF6781F28E2B1B4000708AF /* AppDelegate.swift in Sources */,
 				8EF6782128E2B1B4000708AF /* SceneDelegate.swift in Sources */,
 			);
